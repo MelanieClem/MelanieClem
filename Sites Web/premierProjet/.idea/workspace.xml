@@ -40,6 +40,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projet intégration 1\MelanieClem\Sites Web\premierProjet" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586997148029</updated>
-      <workItem from="1586997149456" duration="116000" />
+      <workItem from="1586997149456" duration="1828000" />
     </task>
     <servers />
   </component>
