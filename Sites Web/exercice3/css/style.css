@@ -1,0 +1,30 @@
+/* TestCSS.css */
+/* créee par Mélanie Clément */
+/* 22 avril 2020 */
+
+body{
+    background: url("../media/background.jpeg") no-repeat center;
+    margin: auto;
+}
+
+
+
+h1,p{
+    color:red
+}
+h1{
+    font-size: 5em;
+}
+img{
+    width: 5%
+}
+
+p{
+    text-align:center;
+
+}
+
+a:hover {
+    color:blue;
+}
+
