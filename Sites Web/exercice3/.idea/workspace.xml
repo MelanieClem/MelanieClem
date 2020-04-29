@@ -32,10 +32,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jeMePresenteV2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projet intégration 1\MelanieClem\Sites Web\exercice3" />
       <recent name="C:\Projet intégration 1\MelanieClem\Sites Web\exercice3\css\media" />
     </key>
   </component>
@@ -49,7 +51,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587595364621</updated>
-      <workItem from="1587595366773" duration="7668000" />
+      <workItem from="1587595366773" duration="8166000" />
+      <workItem from="1587603891280" duration="23000" />
+      <workItem from="1587603955876" duration="310000" />
+      <workItem from="1587651759723" duration="28000" />
+      <workItem from="1587658178397" duration="49000" />
+      <workItem from="1587658500885" duration="18000" />
+      <workItem from="1587658650045" duration="51000" />
+      <workItem from="1587678444822" duration="46000" />
+      <workItem from="1587678693471" duration="60000" />
     </task>
     <servers />
   </component>
@@ -61,5 +71,10 @@
       <screen x="-1920" y="-346" width="1920" height="1040" />
     </state>
     <state x="-1230" y="-79" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.-346.1920.1040@-1920.-346.1920.1040" timestamp="1587602634748" />
+    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1587678752022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1180" y="-71" key="FileChooserDialogImpl/0.0.1536.824/-1920.-346.1920.1040@-1920.-346.1920.1040" timestamp="1587604264640" />
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587678752022" />
   </component>
 </project>

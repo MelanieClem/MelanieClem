@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a015e915-3dc7-485d-b1c6-3e8e13536ff2" name="Default Changelist" comment="" />
+    <list default="true" id="994bd643-cd12-498e-ba14-c0c0c5377a35" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,14 +31,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1abSYUbVr9bL0lh8cPEmjxqFttq" />
+  <component name="ProjectId" id="1ay08tSJsqdI6F65ELcL4U6nC1a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,22 +50,36 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jeMePresenteV2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projet intégration 1\MelanieClem\JeMePresenteVe2\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projet intégration 1\MelanieClem\JeMePresenteVe2\Font" />
+      <recent name="C:\Projet intégration 1\MelanieClem\JeMePresenteVe2\media" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a015e915-3dc7-485d-b1c6-3e8e13536ff2" name="Default Changelist" comment="" />
-      <created>1587002847921</created>
+      <changelist id="994bd643-cd12-498e-ba14-c0c0c5377a35" name="Default Changelist" comment="" />
+      <created>1587692369412</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587002847921</updated>
-      <workItem from="1587002849289" duration="3164000" />
-      <workItem from="1587077704790" duration="19356000" />
-      <workItem from="1587595202034" duration="160000" />
-      <workItem from="1587690512499" duration="19000" />
+      <updated>1587692369412</updated>
+      <workItem from="1587692370755" duration="567000" />
+      <workItem from="1587692983164" duration="91000" />
+      <workItem from="1587693101068" duration="1714000" />
+      <workItem from="1587694881588" duration="8121000" />
+      <workItem from="1588202762034" duration="25000" />
+      <workItem from="1588202801046" duration="51000" />
+      <workItem from="1588202871459" duration="316000" />
     </task>
     <servers />
   </component>
@@ -80,12 +96,16 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587078123658">
+    <state x="-1092" y="-13" key="FileChooserDialogImpl" timestamp="1588203186583">
+      <screen x="-1920" y="-346" width="1920" height="1040" />
+    </state>
+    <state x="-1092" y="-13" key="FileChooserDialogImpl/0.0.1536.824/-1920.-346.1920.1040@-1920.-346.1920.1040" timestamp="1588203186583" />
+    <state x="662" y="264" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587694820576" />
+    <state x="390" y="115" key="SettingsEditor" timestamp="1587697191614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1587078123658" />
+    <state x="390" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587697191614" />
   </component>
 </project>
