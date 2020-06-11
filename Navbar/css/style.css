@@ -1,0 +1,19 @@
+body{
+    background:black;
+}
+
+img{
+    height: 50rem;
+}
+.modal-ku {
+    width: 750px;
+    margin: auto;
+}
+.modal-dialog{
+    max-width: 100%;
+}
+
+p{
+    font-size: 2em;
+    color:red;
+}

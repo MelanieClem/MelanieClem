@@ -1,0 +1,69 @@
+/* style.css*/
+/* Fait par Mélanie Clément*/
+/*Le 20 mai 2020*/
+
+#test{
+    background: url("../img/fond.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 150px;
+
+
+}
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: coral;
+}
+
+#deux
+{
+    background:coral;
+    padding: 75px
+}
+
+#trois{
+    padding: 75px
+}
+
+#trois p{
+    color: grey;
+}
+i {
+    color:coral;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img{
+    height: 300px;
+    width: 100%;
+    margin: 0;
+}
+
+.bottom{
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius:10px
+}
+
+p{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+
