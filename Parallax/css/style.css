@@ -1,0 +1,24 @@
+/* style.css*/
+/* Par Mélanie Clément*/
+/*Le 15 juin 2020*/
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../media/image1.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zone1 p{
+    background-color:rgba(255,255,0,.75);
+
+}
+
+.technique{
+    background-color: rgba(255,255,255,.50)
+}
