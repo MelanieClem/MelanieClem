@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Départ Bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -81,6 +81,7 @@
       <workItem from="1591657823336" duration="2074000" />
       <workItem from="1591830558951" duration="1195000" />
       <workItem from="1592062191062" duration="1063000" />
+      <workItem from="1593313769593" duration="17000" />
     </task>
     <servers />
   </component>

@@ -9,3 +9,83 @@ body{
 .jumbotron{
     background: white;
 }
+#MC{
+    width: 25%;
+}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../media/Entete.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../media/confectionRetouche.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service{
+    background-color: rgba(237, 237, 237,0.75);
+    padding-top:5rem;
+    padding-bottom:5rem;
+
+}
+#XXX{
+    background-color: rgba(103, 113, 121,0.75);
+    padding-top:5rem;
+    padding-bottom:5rem;
+    color:white;
+}
+
+#commentaire{
+    margin-top:-8rem;
+}
+
+.fa-star{
+    padding-bottom:2rem;
+    color:white;
+}
+
+.service{
+    background-color: lightgrey;
+    height:246px;
+}
+h3{
+    padding-bottom: 2rem;
+}
+
+.cours{
+    background-color: lightgrey;
+    height:246px;
+}
+
+.collection{
+    background-color: lightgrey;
+    height:246px
+}
+
+i, .adresse, .liens, .courriel{
+    color: white;
+}
+.btn{
+    background-color:#ffc107;
+    transition: background-color;
+    color: black;
+    cursor: pointer;
+    border:none;
+    font-weight: 700;
+    text-align: center;
+}
+.adresse{}

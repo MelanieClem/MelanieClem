@@ -18,46 +18,52 @@
 
 </head>
 <body>
-<!--Bar Navigation avec Modal -->
-<nav class="navbar navbar-expand-lg navbar-blu bg-dark text-center">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Attention
-    </button>
-    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Jeux vidéo</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="jumbotron">
-                    <div class="modal-body">
-                        <p>Attention tu ne dois pas passer tout la journée sur les jeux vidéo, regarde comment il fait beau dehors</p>
-                    </div>
-                    <div class="modal-footer">
-                        <img class="w-100" src="img/nonJeux.jpg" alt="PS4 Action">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
+
+<!--Bar Navigation avec Modal eo-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Ouvrir le modal
+</button>
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
+</div>
+<!--Bar Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item active"><a class="nav-link" href="index.html"><h5>PS4</h5><span class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="Minecraft.html"><h5>Minecraft</h5></a></li>
-            <li class="nav-item"><a class="nav-link" href="Fortnite.html"><h5>Fortnite</h5></a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">PS4 <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="Minecraft.html">Minecraft</a></li>
+            <li class="nav-item"><a class="nav-link" href="Fortnite.html">Fortnite</a></li>
         </ul>
     </div>
 </nav>
-<!--video-->
 <header>
     <div class="overlay">
 
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="img/video.webm"
+        <source src="https://ak.picdn.net/shutterstock/videos/1053166004/preview/stock-footage-on-a-sewing-machine-sew-clothes-close-up-dressmaker-sews-fabric.webm"
                 type="video/mp4">
     </video>
 
