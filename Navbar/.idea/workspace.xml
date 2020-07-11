@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Départ Bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -72,6 +72,7 @@
       <workItem from="1593286577969" duration="2879000" />
       <workItem from="1593290150927" duration="1454000" />
       <workItem from="1593292152855" duration="2402000" />
+      <workItem from="1594250361910" duration="603000" />
     </task>
     <servers />
   </component>

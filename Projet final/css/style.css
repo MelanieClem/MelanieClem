@@ -88,4 +88,18 @@ i, .adresse, .liens, .courriel{
     font-weight: 700;
     text-align: center;
 }
-.adresse{}
+
+.fas{
+    color: #ffc107;
+}
+.mariees,.confection1, .Retouche{
+    background-color: lightgrey;
+    padding-top: 5rem
+}
+
+
+hr{
+    background-color: #ffc107;
+    height: 1px;
+    width: 30rem;
+}
