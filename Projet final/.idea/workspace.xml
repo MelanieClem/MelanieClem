@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Han Solo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -92,7 +92,8 @@
       <workItem from="1593904567911" duration="3051000" />
       <workItem from="1594248653137" duration="13528000" />
       <workItem from="1594500942599" duration="3125000" />
-      <workItem from="1594587030788" duration="56330000" />
+      <workItem from="1594587030788" duration="56564000" />
+      <workItem from="1594962237918" duration="748000" />
     </task>
     <servers />
   </component>
