@@ -29,15 +29,22 @@
             <li class="nav-item"><a class="nav-link" href="index.html">Page d'acceuil <span class="sr-only">(current)</span></a></li>
             <li class="nav-item active"><a class="nav-link" href="confection.html">Confection et Réparation</a></li>
             <li class="nav-item"><a class="nav-link" href="cours.html">Cours de couture</a></li>
-            <li class="nav-item"><a class="nav-link" href="collection.html">Nous joindre</a></li>
         </ul>
     </div>
 </nav>
 
+
 <!--Bannière machine a coudre-->
-<div class="container-fluid parallax1 h-100">
-    <div class="row align-items-center h-100">
-        <div class="col-lg-12 text-center"></div>
+<div class="container-fluid parallax1 h-25">
+    <div class="row align-items-center h-25">
+        <div class="col-12 text-center logo">
+            <img src="media/logo.png" id="MC"/>
+            <p class="lead">Bienvenue l'atelier de MC créations, designer de mode</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                En savoir plus
+            </button>
+        </div>
+
     </div>
 </div>
 
@@ -69,7 +76,7 @@
         </div>
     </div>
 </div>
-</div>
+
 
 <!--Confection-->
 <div class="container text-center">
@@ -90,25 +97,21 @@
 
 <!--Pied de page-->
 <footer>
-    <div class=" container-fluid text-center bg-black mt-5 footer">
+    <div class=" container-fluid text-center bg-black mt-5 mb-5 footer">
         <div class="container">
             <div class="row p-1">
                 <div class="col-12 col-md-6 col-lg-4 adresse">
-                    <p>Création MC <br>
-                        505 rue Goéland <br>
+                    <h5>Adresse</h5>
+                    <p>505 rue Goéland <br>
                         Cap-Santé, QC, G0A 1L0</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 liens">
-                    <p>autre </p>
+                    <h5>Me rejoindre</h5>
+                    <p>tel: 418-000-0000<br>
+                        courriel: mccollection@hotmail.com</p>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4">
                     <div class="row">
-                        <div class="col-1">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="col-11 courriel">
-                            <p>Soyez informé(e) en premier</p>
-                        </div>
                         <div class="input-group mb-2">
                             <input type="text" class="form-control" placeholder="Inscrivez votre adresse courriel" aria-label="Inscrivez votre adresse courriel" aria-describedby="basic-addon2">
                             <div class="input-group-append">
@@ -117,7 +120,7 @@
                         </div>
 
                     </div>
-                    <div class="row mx-auto pt-1  mb-2">
+                    <div class="row pt-1  mb-2">
                         <div class="col-1">
                             <i class="fab fa-facebook"></i>
                         </div>
@@ -136,7 +139,6 @@
         </div>
     </div>
 </footer>
-
 
 
 <!--copier la ligne du docuement des notes de cours, il est en jaune car Php strom nous avertie que c'est un liens vers un site web-->

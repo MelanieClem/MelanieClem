@@ -55,13 +55,14 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projet intégration 1\MelanieClem\Projet final\media" />
-      <recent name="C:\Projet intégration 1\MelanieClem\bootsrap" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projet intégration 1\MelanieClem\Projet final\media" />
       <recent name="C:\Projet intégration 1\MelanieClem\Départ Bootstrap\media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projet intégration 1\MelanieClem\Projet final\font" />
+      <recent name="C:\Projet intégration 1\MelanieClem\Projet final\media" />
+      <recent name="C:\Projet intégration 1\MelanieClem\bootsrap" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -89,7 +90,9 @@
       <workItem from="1593296361026" duration="28842000" />
       <workItem from="1593397210241" duration="17974000" />
       <workItem from="1593904567911" duration="3051000" />
-      <workItem from="1594248653137" duration="13039000" />
+      <workItem from="1594248653137" duration="13528000" />
+      <workItem from="1594500942599" duration="3125000" />
+      <workItem from="1594587030788" duration="56330000" />
     </task>
     <servers />
   </component>
@@ -109,12 +112,20 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="-71" key="FileChooserDialogImpl" timestamp="1594478021160">
-      <screen x="-1920" y="-346" width="1920" height="1040" />
+    <state x="504" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594958748341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="504" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594958748341" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594955044895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594955044895" />
+    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1594958942557">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1180" y="-71" key="FileChooserDialogImpl/0.0.1536.824/-1920.-346.1920.1040@-1920.-346.1920.1040" timestamp="1594478021160" />
     <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824/-1920.-346.1920.1040@0.0.1536.824" timestamp="1592260516614" />
-    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593389414411" />
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594958942556" />
     <state x="329" y="73" key="SettingsEditor" timestamp="1593308405900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
