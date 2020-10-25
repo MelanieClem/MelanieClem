@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="monCanvas" height="500" width="500"></canvas>
+
+<script>
+    let canvas = document.getElementById("monCanvas");
+    let ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "black";
+    ctx.fillRect(0,0,500,500);
+
+    let degrade = ctx.createLinearGradient(0,100,0,500);
+    degrade.addColorStop(0,"#1b5ce7");
+    degrade.addColorStop(1,"#FF00FF");
+
+    ctx.beginPath();
+    ctx.arc(250,250,200,0,2*Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = degrade;
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(400,250,180,0,2*Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = "black";
+    ctx.fill();
+
+</script>
+
+</body>
+</html>

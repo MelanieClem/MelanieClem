@@ -51,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetFinal_MelanieClement" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -126,6 +126,8 @@
       <workItem from="1594500940408" duration="1198000" />
       <workItem from="1594958945919" duration="1213000" />
       <workItem from="1594962161282" duration="47000" />
+      <workItem from="1599923007704" duration="2058000" />
+      <workItem from="1602965120174" duration="599000" />
     </task>
     <servers />
   </component>
