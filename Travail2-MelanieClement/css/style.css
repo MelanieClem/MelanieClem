@@ -1,0 +1,83 @@
+/* style.css*/
+/* Par Mélanie Clément*/
+/*Le 24 octobre 2020*/
+
+body{
+    background-color: black;
+    margin: 5rem;
+
+}
+h1,h5{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+hr{
+    background-color:white;
+}
+#division{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#nomEtoile:after, #ddnEtoile:after, #telephoneEtoile:after, #courrielEtoile:after, #adresseEtoile:after, #sexeEtoile:after, #metierEtoile:after {
+    content:"*"; color:red;
+
+}
+
+#colonneGauche{
+    background-color: #343a40;
+}
+
+#divisiona{
+    background-color: #ffc107;
+}
+
+#codeRegional{
+    color:black;
+}
+
+
+#page{
+    background-color: black;
+}
+
+
+
+#colonneDroite{
+    background-color: black;
+    padding-left:10rem;
+}
+
+.text-left{
+    padding: 10px;
+}
+
+body{
+    color:white;
+}
+#prenom, #etatprovince{
+    margin-left:10px;
+}
+#nomAide, #codeRegionalAide, #courrielAide, #numeroporteAide, #numeroappartAide, #villeAide, #codepostalAide{
+    padding-left:0;
+    align-items: start;
+}
+
+svg{
+    color: white;
+}
+
+#presentation{
+    padding-bottom: 4rem;
+}
+
+#monCanvas{
+    margin-top:15rem;
+
+}
+#paypal-button{
+    margin-left: 50px
+}
+small{
+    font-size:10px;
+}
