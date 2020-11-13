@@ -1,3 +1,7 @@
+// javaScript.js
+// Par Mélanie Clément
+// le 11 novembre 2020
+
 const displays = document.querySelectorAll('.note-display');
 const transitionDuration = 900;
 
