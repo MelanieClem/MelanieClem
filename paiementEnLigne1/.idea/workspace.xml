@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../wamp64/www/TP3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../librairieJavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -74,6 +74,8 @@
       <workItem from="1600903903952" duration="9365000" />
       <workItem from="1602988487661" duration="633000" />
       <workItem from="1603045641939" duration="629000" />
+      <workItem from="1605151252199" duration="738000" />
+      <workItem from="1605185068794" duration="95000" />
     </task>
     <servers />
   </component>
@@ -93,10 +95,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1603045699363">
+    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1605151388889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1180" y="-71" key="FileChooserDialogImpl/0.0.1536.824/-1920.-346.1920.1040@-1920.-346.1920.1040" timestamp="1601505255768" />
-    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603045699363" />
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605151388889" />
   </component>
 </project>

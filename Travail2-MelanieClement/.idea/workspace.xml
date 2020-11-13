@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JScours2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,6 +78,8 @@
       <workItem from="1603584249039" duration="84000" />
       <workItem from="1603584496582" duration="75000" />
       <workItem from="1603584959399" duration="16326000" />
+      <workItem from="1603640177797" duration="604000" />
+      <workItem from="1603757605724" duration="43000" />
     </task>
     <servers />
   </component>
@@ -94,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="342" y="167" key="FileChooserDialogImpl" timestamp="1603637391409">

@@ -1,0 +1,355 @@
+body{
+    font-family:'Comfortaa',cursive;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.nav-link{
+    color: white;
+}
+
+.fas, .fa-bars{
+    color:white;
+}
+#header{
+    background: black;
+    color: white;
+    border-bottom: 0.5rem solid #ffffff;
+
+}
+#menu {
+    background-color: white;
+    padding-bottom: 20px;
+}
+.nav-item{
+    margin-top: 5rem;
+}
+
+.logo{
+    width: 15%;
+}
+hr{
+    border-color: #74a324;
+    border-width:0.25rem;
+
+}
+
+
+
+i, a{
+    color:white;
+}
+
+#coordonnees i {
+    color:black;
+
+}
+#responsable, #responsabletel{
+    list-style: none;
+}
+
+#bannierea{
+ size: auto;
+}
+
+#header{
+    height: 10rem;
+}
+
+
+#sectionGauche{
+    height: 50rem
+}
+#sectionDroite{
+
+    margin-top: -8rem;
+    padding-top:10px;
+}
+
+#menuAccueil{
+    margin-left: auto;
+}
+
+#photo{
+    border-radius: 50%;
+    height:80px;
+    width: 80px;
+
+}
+
+#activite{
+    background: #ffc107;
+}
+
+#coordonnees{
+    background: #74a324;
+}
+
+#carteGeographique{
+    background: #e4606d;
+}
+
+iframe{
+    height: 20rem;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.display-container {
+    margin: auto;
+    display: flex;
+}
+
+.note-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px;
+}
+
+.circle {
+    position: relative;
+}
+
+.circle__svg {
+    transform: rotate(-90deg);
+}
+
+.circle__progress {
+    fill: none;
+    stroke-width: 3;
+    stroke-opacity: 0.3;
+    stroke-linecap: round;
+}
+
+.circle__progress--fill {
+    --initialStroke: 0;
+    --transitionDuration: 0;
+    stroke-opacity: 1;
+    stroke-dasharray: var(--initialStroke);
+    stroke-dashoffset: var(--initialStroke);
+    transition: stroke-dashoffset var(--transitionDuration) ease;
+}
+
+.note-display:nth-child(1) .circle__progress { stroke: #AAFF00; }
+.note-display:nth-child(2) .circle__progress { stroke: #FF00AA; }
+.note-display:nth-child(3) .circle__progress { stroke: #AA00FF; }
+.note-display:nth-child(4) .circle__progress { stroke: #00AAFF; }
+
+.percent {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
+    transform: translate(-50%, -50%);
+}
+
+.percent__int { font-size: 28px; }
+.percent__dec { font-size: 12px; }
+
+.label {
+    font-family: 'Raleway', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.paragraphe{
+    text-align: justify;
+}
+
+.liste{
+    border-left: 0.25rem solid #74a324;
+    padding: 0 0 0 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left:5rem;
+    list-style: none;
+    overflow: hidden;
+}
+
+footer{
+    background: black;
+    color:white;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+
+}
+
+.logoFooter{
+    width: 50%;
+}
+
+.conte{
+    width: 25%;
+}
+
+.reseauBiblio{
+    color: #74a324;
+}
+
+/* parallax de la page index*/
+#proposParallax {
+    /* L’image du Parallax */
+    background-image: url("../img/fondRapportAnnuel.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* parallax de la page service*/
+#serviceParallax {
+    /* L’image du Parallax */
+    background-image: url("../img/ServiceNumerique.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* parallax de la page abonnement*/
+#abonnementParallax {
+    /* L’image du Parallax */
+    background-image: url("../img/abonnement.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* parallax de la page politiques*/
+#politiqueParallax{
+    /* L’image du Parallax */
+    background-image: url("../img/entete-bibliotheque.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#rapport{
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+th{
+    background: rgba(127, 255, 0, 0.66);
+    padding-right: 100px;
+}
+
+
+
+.imageSection{
+    width: 100%;
+}
+
+
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.imageSection {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .7s ease;
+    transition: .7s ease;
+}
+
+.container:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.dureeAbonnement{
+    background: rgba(127, 255, 0, 0.66);
+    padding:3rem;
+}
+
+#etoilePrenom:after, #etoileVille:after, #etoileNom:after, #etoileAdresse:after, #etoileProvince:after, #etoileCodePostal:after, #etoileTelephone:after, #etoileCourriel:after, #etoileCourriel1:after{
+    content:"*"; color:red;
+
+}
+
+#myCarousel{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color:green;
+}
+
+.bordure{
+    border-width:0.25rem;
+    border-color:#74a324;
+}
+

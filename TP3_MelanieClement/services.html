@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--glisser le fichier bootsrap.css ici-->
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <!--glisser le fichier style.css ici-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--copier la ligne du docuement des notes de cours-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/livreSVG.png"/>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg col-lg-12 ">
+    <img src="img/logo.svg" alt="logo Ville Cap-Santé" class="logo"/>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="propos.html">À propos de nous</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="politiques.html">Politiques</a></li>
+            <li class="nav-item"><a class="nav-link" href="inscription.html">Inscription</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/bibliocapsante"><i class="fab fa-facebook-f"></i></a></li>
+
+        </ul>
+    </div>
+</nav>
+
+<section class="container-fluid">
+    <div class="row colg-lg-12">
+
+        <div class="container-fluid parallax h-100" id="serviceParallax">
+            <div class="row align-items-center h-100">
+                <div class="col-12 text-center"></div>
+            </div>
+        </div>
+        <div class="container-fluid col-lg-8">
+            <div class="card mb-3 mt-5 p-5 bordure" >
+                <div class="row col-lg-12">
+
+                <a href="#PEB" class="container col-lg-4 p-3" >
+                <img class=imageSection src="img/PEB.jpg" alt="Prêts entre bibliothèque"/>
+                <div class="overlay">
+                    <div class="text">Le prêt entre bibliothèques : pour obtenir un document non disponible à votre bibliothèque</div>
+                </div>
+                </a>
+
+                <a href="#Museo" class="container col-lg-4 p-3" >
+                    <img class=imageSection src="img/Museo.jpg" alt="Carte Muséo"/>
+                    <div class="overlay">
+                        <div class="text">Laissez-passer pour 2 adultes et 2 enfants dans une dizaine de musées de nos régions</div>
+                    </div>
+                </a>
+                <a href="#RBdigital" class="container col-lg-4 p-3">
+                    <img class=imageSection src="img/RB_digital.jpg" alt="RB digital"/>
+                    <div class="overlay">
+                        <div class="text">Une trentaine de magazines numériques populaires à votre portée, en tout temps!</div>
+                    </div>
+                </a>
+                <a href="#Genealogie" class="container col-lg-4 p-3">
+                    <img class=imageSection src="img/genealogie.jpg" alt="Genealogie"/>
+                    <div class="overlay">
+                        <div class="text">Accès à plus de 43 millions d’images et de fiches généalogiques de 1621 à aujourd’hui</div>
+                    </div>
+                </a>
+                <a href="#Toutapprendre" class="container col-lg-4 p-3">
+                    <img class=imageSection src="img/Bouton%20Toutapprendre%20-%20Services.png" alt="Toutapprendre"/>
+                    <div class="overlay">
+                        <div class="text">Des centaines de formations en ligne pour tout apprendre</div>
+                    </div>
+                </a>
+                    <a href="#AvisParTexto" class="container col-lg-4 p-3">
+                        <img class=imageSection src="img/AvisParTexto.jpg" alt="Avis par Texto"/>
+                        <div class="overlay">
+                            <div class="text">Pour recevoir des messages texte vous avisant de vos dates d’échéance, de vos retards et de vos réservations</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card mb-3 p-5 bordure" >
+                <div class="row align-items-center col-lg-12">
+                    <img id="peb1" src="img/PEB.jpg" class="col-lg-3" alt="peb"/>
+                    <h3 id="PEB" class="col-lg-6"> Prêts entre bibliothèque</h3>
+                </div>
+                <hr>
+                <p>Le service de PEB permet d’emprunter un livre ou un livre audio disponible dans une autre bibliothèque du Réseau BIBLIO.</p>
+                <ul>
+                    <li>Vous placez une demande de PEB via le site web ZPortal à l'aide de votre numéro d'usager et de votre NIP.  *NIP oublié?</li>
+                    <li>Votre demande est transmise aux bibliothèques du Réseau BIBLIO.</li>
+                    <li>Lorsque qu'un prêteur est localisé, le volume est expédié à votre bibliothèque locale.</li>
+                    <li>Il ne vous reste plus qu'à passer à votre bibliothèque pour y faire l'emprunt du livre. Bonne lecture!</li>
+                </ul>
+                <a href="https://biblio.vdxhost.com/fr/zportal/zengine?VDXaction=Navigation" class="btn btn-primary">Faire une demande de PEB</a>
+            </div>
+
+            <div class="card mb-3 p-5 bordure" >
+                <div class="row align-items-center col-lg-12">
+                    <img src="img/Museo.jpg" class="col-lg-3" alt="peb"/>
+                    <h3 id="Museo" class="col-lg-6">Carte MUSÉO</h3>
+                </div>
+
+                <hr>
+                <p>
+                    La carte MUSÉO offre la chance aux abonnés des bibliothèques du Réseau BIBLIO CNCA de partir à la découverte de musées et de leurs fascinantes expositions.<br>
+                </p>
+                <p>
+                    Pour profiter du service, l'abonné n'a qu'à se rendre à sa bibliothèque municipale et emprunter la carte MUSÉO. Emprunter un musée, c'est aussi simple que d'emprunter un livre!
+                </p>
+                <ul>
+                    <li>Service en vigueur d'octobre à mai;</li>
+                    <li>Offert aux abonnés des bibliothèques du Réseau BIBLIO CNCA;</li>
+                    <li>Disponible au comptoir de prêt des bibliothèques du Réseau BIBLIO CNCA;</li>
+                    <li>Laissez-passer pour l'admission* gratuite dans les musées participants;</li>
+                    <li>Valide pour 2 adultes et 2 enfants âgés de 16 ans et moins;</li>
+                    <li>Prêt d'une durée de 7 jours non renouvelable;</li>
+                    <li>Limite de 2 cartes MUSÉO par carte d'abonné;</li>
+                    <li>En cas de perte, des frais de 20 $ s'appliquent;</li>
+                    <li>Repérable dans le   catalogue en ligne  du Réseau BIBLIO CNCA;</li>
+                    <li>Consulter l'horaire sur le site Internet du musée ou par téléphone. </li>
+                </ul>
+
+
+                <!-- début carousel musées -->
+                <div id="myCarousel1" class="carousel slide col-lg-6 offset-lg-3" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#myCarousel1" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel1" data-slide-to="1"/>
+                        <li data-target="#myCarousel1" data-slide-to="2"/>
+                        <li data-target="#myCarousel1" data-slide-to="3"/>
+                        <li data-target="#myCarousel1" data-slide-to="4"/>
+                        <li data-target="#myCarousel1" data-slide-to="5"/>
+                        <li data-target="#myCarousel1" data-slide-to="6"/>
+                        <li data-target="#myCarousel1" data-slide-to="7"/>
+                        <li data-target="#myCarousel1" data-slide-to="8"/>
+                        <li data-target="#myCarousel1" data-slide-to="9"/>
+                        <li data-target="#myCarousel1" data-slide-to="10"/>
+                    </ul>
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <img class="img-fluid w-50" src="img/logo_Monastere.jpg" alt="bateau de pirates" >
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_moulin_la_lorraine-web.jpg" alt="Big Hero 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_musee_art_contemporain-web.jpg" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_musee_aux_trois_couvents.jpg" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_musee_charlevoix-web.jpg" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-25" src="img/logo_musee_civilisation-web.jpg" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_musee_maritime-web.jpg" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_musee_marius-web.jpg" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_musee_memoire_vivante-web.jpg" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid w-50" src="img/logo_musee_mineralogique-web.jpg" alt="Arbre">
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel1" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel1" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div> <!-- Fin du carousel -->
+            </div>
+
+            <div class="card mb-3 p-5 bordure" >
+                <div class="row align-items-center col-lg-12">
+                    <img src="img/RB_digital.jpg" class="col-lg-3"/>
+                    <h3 id="RBdigital" class="col-lg-6">RBdigital </h3>
+                </div>
+                <hr>
+                <p>RBdigital est un kiosque numérique présentant de nombreux avantages :<br></p>
+
+                <ul>
+                    <li>Grand choix de magazines en français et en anglais</li>
+                    <li>Disponibilité et gratuité des magazines dès leur publication</li>
+                    <li>DLecture sur ordinateur (PC et Mac) et appareil mobile (Apple, Android et
+                        Kindle)</li>
+                    <li>Nombre d’empruntsillimité, sans date de retour</li>
+                    <li>Une fois la revue téléchargée, plus besoin d’Internet pour la consulter</li>
+                </ul>
+                <!-- début du carousel revue-->
+                <div id="myCarousel" class="carousel slide col-lg-8 offset-lg-2" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"/>
+                        <li data-target="#myCarousel" data-slide-to="1"/>
+                        <li data-target="#myCarousel" data-slide-to="2"/>
+                        <li data-target="#myCarousel" data-slide-to="3"/>
+                        <li data-target="#myCarousel" data-slide-to="4"/>
+                        <li data-target="#myCarousel" data-slide-to="5"/>
+                        <li data-target="#myCarousel" data-slide-to="6"/>
+                        <li data-target="#myCarousel" data-slide-to="7"/>
+
+                    </ul>
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="img/revues/1.png" alt="bateau de pirates" >
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/revues/2.png" alt="Big Hero 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/revues/3.png" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/revues/4.png" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/revues/5.png" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/revues/6.png" alt="Arbre">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/revues/7.png" alt="Arbre">
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"/>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div> <!-- Fin du carousel -->
+
+                <a href="http://ezproxycnca.reseaubiblio.ca/login?url=https://bibliocnca.rbdigital.com" class="btn btn-primary">Choisir un magazine maintenant</a>
+            </div>
+
+            <div class="card mb-3 p-5 bordure" >
+                <div class="row align-items-center col-lg-12">
+                    <img src="img/genealogie.jpg" class="col-lg-3" alt="genealogie"/>
+                    <h3 id="Genealogie" class="col-lg-6">Généalogie Québec </h3>
+                </div>
+                <hr>
+                <p>Partez à la recherche de vos ancêtres! Consultez gratuitement une multitude d'outils de recherche ainsi que des bases de données riches de notre patrimoine<br></p>
+
+                <ul>
+                    <li>Plus de 43 000 000 images et fiches de l'origine de la Nouvelle-France à aujourd'hui!</li>
+                    <li>Consultation à l'aide des grands outils de recherche de l'institut généalogie Drouin.</li>
+                    <li>Accès à la base de données LAFRANCE comprenant tous les mariages catholiques du Québec de 1621 à 1913, ainsi que tous les actes de baptêmes et sépultures catholiques entre 1621 à 1849</li>
+                    <li>Recherche par famille dans les Grandes collections, section Nécrologue, répertoires avec fiches de mariage et bien plus encore!</li>
+
+                </ul>
+                <a href="http://ezproxycnca.reseaubiblio.ca/login?url=https://www.genealogiequebec.com/account/login.aspx" class="btn btn-primary">Rechercher vos ancêtres</a>
+
+            </div>
+
+            <div class="card mb-3 p-5 bordure" >
+                <div class="row align-items-center col-lg-12">
+                    <img src="img/Bouton%20Toutapprendre%20-%20Services.png" alt="Toutapprendre" class="col-lg-3"/>
+                    <h3 id="Toutapprendre" class="col-lg-6">Toutapprendre</h3>
+                </div>
+                <hr>
+                <p>Toutapprendre réunit plus de 120 000 heures de cours en ligne en accès gratuit et
+                    illimité. Ces cours (plus de 760) traitent de différents sujets dont :
+                    <br></p>
+
+                <ul>
+                    <li>Arts & loisirs créatifs : dessin, tricot, photographie…</li>
+                    <li>Bien-être & santé : développement personnel et relationnel, éducation…</li>
+                    <li>Bureautique : initiation à l’informatique, Word, Excel…</li>
+                    <li>Langues : anglais, allemand, italien…</li>
+                    <li>Multimédia : réseaux sociaux, design, vidéo…</li>
+                    <li>Musique : chant, piano, ukulélé…</li>
+                    <li>Programmation : développement Web, HTML 5, apprendre l’algorithmique…</li>
+                    <li>Sport & fitness: danse, fitness, musculation…</li>
+                    <li>Vie professionnelle : gestion des finances, recherche d’emploi, capital humain…</li>
+                </ul>
+                <p>Le visionnement des tutoriels peut se faire sur un ordinateur, une tablette ou un appareil
+                    mobile (Apple et Android).</p>
+
+                <a href="https://ezproxycnca.reseaubiblio.ca/login?url=https://biblio.toutapprendre.com" class="btn btn-primary">Rechercher vos ancêtres</a>
+
+
+            </div>
+            <div class="card mb-3 p-5 bordure" >
+                <div class="row align-items-center col-lg-12">
+                    <img src="img/AvisParTexto.jpg" alt="AvisTexto" class="col-lg-3"/>
+                    <h3 id="AvisParTexto" class="col-lg-6">Abonnez-vous aux textos de la bibliothèque !</h3>
+                </div>
+                <hr>
+                <p>Soyez informés sur vos emprunts et réservations grâce à notre nouveau service d’avis par messages texte! Abonnez-vous à une, deux ou trois alertes selon vos besoins.
+                    <br></p>
+
+                <ul>
+                    <li>Évitez l’accumulation des frais de retard grâce à l’alerte de retard. Vous recevrez un message texte à la première journée de retard.</li>
+                    <li>Accédez à vos titres préférés rapidement grâce à l’alerte de réservation. Vous pouvez récupérer le document dès maintenant au comptoir de votre bibliothèque.</li>
+                    <li>Planifiez le retour de vos emprunts grâce à l’alerte de courtoisie. Vous recevrez un message texte trois jours avant l’échéance de vos prêts.</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="container-fluid col-lg-4" id="sectionDroite">
+            <div class="card mb-3 p-3" id="activite" >
+                <h2 class="mt-3">BIBLIOTHÈQUE MUNICIPALE</h2>
+                <h5 class="mt-5"> Prochaines activités</h5>
+                <hr>
+                <h5 class="mt-3">21 Novembre</h5>
+                <A>Compte en pyjama</A>
+                <br>
+                <h5>19 Décembre</h5>
+                <A class="pb-5">Biblio-brico de Noël</A>
+                <br>
+
+            </div>
+
+            <div class="card mb-3 p-3" id="coordonnees">
+                <h2 class="mb-3">Coordonnées</h2>
+                <h5 class="mt-3"> Bibliothèque municipale</h5>
+                <a class="mt-3">15, rue Marie-Fitzbach</a>
+                <a>Cap-Santé (Québec) G0A 1L0</a>
+                <a><i class="fas fa-phone mr-3"></i> 418-285-2915</a>
+                <a><i class="fas fa-envelope mr-3"></i>bibliocapsante@hotmail.com</a>
+
+                <div class="d-flex align-items-center mt-5 mb-3">
+                    <img class="mr-1 flex-shrink-0" id="photo" src="img/photo1.jpg"/>
+                    <div class="reset-margin ml-4">
+                        <ul class="list border-left pl-3">
+                            <li id="responsable">
+                                <a> Mélanie Clément <br></a>
+                                <a> Responsable de la bibliothèque</a>
+                            </li>
+                            <li id="responsabletel" >
+                                <a><i class="fas fa-phone mr-3"></i> 418-888-8888</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <h5 class="mt-5 mb-3">Horraire en raison de la COVID-19</h5>
+                <a>Lundi : 19h00 à 20h30</a>
+                <a>Jeudi : 19h00 à 20h30</a>
+                <a class="mb-5">Samedi : 10h00 à 12h00</a>
+
+            </div>
+            <div class="card mb-3 p-2" id="carteGeographique">
+                <h3 id="carte">Carte géographique</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8085.841146695922!2d-71.7999182893479!3d46.67467268744438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc7793836c05395%3A0x9fda93cfd8a11325!2s15%20Rue%20Marie%20Fitzbach%2C%20Cap-Sant%C3%A9%2C%20QC%20G0A%201L0!5e0!3m2!1sfr!2sca!4v1604277668662!5m2!1sfr!2sca" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="card mb-3 p-2">
+                <svg width="100" height="100">
+                    <img src="img/livreSVG.png" alt="livreSVG"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="row col-lg-12>">
+            <div class="container-fluid col-lg-4">
+                <img src="img/logo.svg" alt="logo Ville Cap-Santé" class="logoFooter"/>
+            </div>
+            <div class= "container-fluid align-items-center col-lg-4">
+                <h5 class="mb-3">Horraire en raison de la COVID-19</h5>
+                <a>Lundi : 19h00 à 20h30<br></a>
+                <a>Jeudi : 19h00 à 20h30<br></a>
+                <a class="mb-5">Samedi : 10h00 à 12h00</a>
+            </div>
+            <div class="container-fluid col-lg-4">
+                <h5>Contactez-nous<br></h5>
+                <h5 class="mt-3"> Bibliothèque municipale<br></h5>
+                <a class="mt-3">15, rue Marie-Fitzbach<br></a>
+                <a>Cap-Santé (Québec) G0A 1L0<br></a>
+                <a><i class="fas fa-phone mr-3"></i> 418-285-2915<br></a>
+                <a><i class="fas fa-envelope mr-3"></i>bibliocapsante@hotmail.com</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="js/javaScript.js"></script>
+<!--copier la ligne du docuement des notes de cours, il est en jaune car Php strom nous avertie que c'est un liens vers un site web-->
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<!--copier la ligne du docuement des notes de cours, il est en jaune car Php strom nous avertie que c'est un liens vers un site web-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--glisser le fichier bootsrap.js ici-->
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>

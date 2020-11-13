@@ -1,0 +1,178 @@
+<!--politique.html-->
+<!--Par Mélanie Clément-->
+<!--le 12 novembre 2020-->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Politique</title>
+    <!--glisser le fichier bootsrap.css ici-->
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <!--glisser le fichier style.css ici-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--copier la ligne du docuement des notes de cours-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/livreSVG.png"/>
+
+
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg col-lg-12 col-md-12 col-12 hamburger">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+            <li class="nav-item "><a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="propos.html">À propos de nous</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item active"><a class="nav-link" href="politiques.html">Politiques</a></li>
+            <li class="nav-item"><a class="nav-link" href="inscription.html">Inscription</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/bibliocapsante"><i class="fab fa-facebook-f"></i></a></li>
+        </ul>
+    </div>
+    <img src="img/logo.svg" alt="logo Ville Cap-Santé" class="w-auto col-lg-2 col-md-2 col-2"/>
+</nav>
+
+
+<!--Header-->
+<header class="container-fluid text-center" id="test">
+    <div class=container-fluid>
+        <div class="row no-gutters align-items-center">
+            <div class= col-xl-12>
+                <h3>BIBLIOTHÈQUE MUNICIPALE DE CAP-SANTÉ</h3>
+                <hr class="divider my-4">
+                <p>Située dans l'école primaire du Bon-Pasteur, la bibliothèque de Cap-Santé est membre du Réseau BIBLIO de la
+                    Capitale-Nationale et de Chaudière-Appalaches ce qui lui permet d'offrir une grande variété d'ouvrages pour
+                    tous les âges et de nombreux services gratuits.
+                </p>
+                <div class="bottom">
+                    <a class="btn" href="propos.html">En Savoir Plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--Deuxième container-->
+<div class="container-fluid text-center" id="deux">
+    <div class="row no-gutters col-lg-12 col-md-12 col-12"></div>
+            <canvas id="monCanvas" height="150" width="150" ></canvas>
+            <script>
+
+                let canevas = document.getElementById('monCanvas');
+                if (canevas.getContext) {
+                    let ctx = canevas.getContext('2d');
+
+                    // Triangle plein
+                    ctx.beginPath();
+                    ctx.moveTo(25, 25);
+                    ctx.lineTo(105, 25);
+                    ctx.lineTo(25, 105);
+                    ctx.fill();
+
+                    // Triangle filaire
+                    ctx.beginPath();
+                    ctx.moveTo(125, 125);
+                    ctx.lineTo(125, 45);
+                    ctx.lineTo(45, 125);
+                    ctx.closePath();
+                    ctx.stroke();
+                }
+            </script>
+    <h3> Politiques et conditions</h3>
+    </div>
+
+</div>
+
+
+<div class="container text-center" id="trois">
+    <div class="row">
+        <div class="container-fluid col-lg-12 col-md-12 col-12">
+            <div class="container-fluid mb-3 p-5" >
+                <h3>Conditions d'abonnement</h3>
+                <hr>
+                <ul>
+                    <li class="liste">L'inscription à la bibliothèque est gratuite</li>
+                    <li class="liste">Les services de la bibliothèque sont offerts aux résidents de la municipalité et aux résidents saisonniers.</li>
+                    <li class="liste">Chaque abonné est responsable de sa carte de membre remise lors de son adhésion. Il doit la signer et la présenter à chaque visite</li>
+                    <li class="liste">L'abonné doit remettre sa carte d'adhésion s'il déménage à l'extérieur de la municipalité.</li>
+                </ul>
+            </div>
+
+            <div class="container-fluid mb-3 p-5" >
+                <h3>Politiques de prêts</h3>
+                <hr>
+                <ul>
+                    <li class="liste">Chaque abonné peut emprunter à la fois 3 volumes et 2 revues</li>
+                    <li class="liste">Le prêt est d'une durée de 3 semaines</li>
+                    <li class="liste">L'abonné peut demander le renouvellement d'un prêt pour une durée de 2 semaines si le document n'est pas déjà réservé par un autre abonné. Le renouvellement peut se faire uniquement sur place ou à partir du portail de la bibliothèque à l'aide du NIP.</li>
+                    <li class="liste">L'abonné peut réserver un document déjà en circulation. Il a droit à 5 réservations à la fois. Dès que le biens culturel réservé devient disponible, l'abonné sera avisé.
+                        Un délais de 3 jours ouvrables lui est accordé pour venir chercher la réservation, apès quoi la réservation sera annulée.</li>
+                    <li class="liste">Les biens culturels en retard entraînent une amende de 0,10$ par bien culturel, par jour ouvrable.</li>
+                    <li class="liste">L'abonné avec un ou des livres en retards NE PEUT EMPRUNTER avant le retour de ceux-ci.
+                </ul>
+            </div>
+            <div class="container-fluid mb-3 p-5" >
+                <h3>Cartes, biens culturels perdus ou brisés</h3>
+                <hr>
+                <li class="liste">Les abonnés sont ENTIÈREMENT responsables des biens empruntés.</li>
+                <li class="liste">Les biens perdus ou endommagés sont facturés à leur valeur de remplacement (inclutant les frais de reliure et codification) à l'abonné ou à ses parents pour celui de moins de 13 ans. Lorsque la facture sera aquittée, l'abonné retrouvera son droit d'emprunt.</li>
+                <li class="liste">En cas de perte ou bris de la carte d'abonné, celle-ci sera remplacée moyennant un coût de 2.00$. </li>
+                <li class="liste">En cas de perte d'une passe Muséo, des frais de 20.00$ seront facturés.</li>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!--Quatrième container-->
+<div class="container-fluid">
+    <div class="row no-gutters">
+        <div class="col-12 col-md-6 col-xl-4">
+            <img src="img/ecole.jpg" alt="globe"/>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <img src="img/interieurbiblio.png" alt="ordinateur"/>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <img src="img/livre1.jpg" alt="clavier"/>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <img src="img/livre2.jpg" alt="dark"/>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <img src="img/livre3.jpg" alt="web"/>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <img src="img/livre%20noel.jpg" alt="http"/>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container-fluid">
+        <div class="row col-lg-12 col-md-12 col-12>">
+            <h5 class="m-5">Une petite section pour te remercier pour ton enseignement Laurent lors de ses deux sessions. Malgré le découragement du début, tu as su transmettre ton savoir avec brio. Je ferais peut-être pas carrière dans le développement web mais je me suis bien aimé ce cours</h5>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="js/javaScript.js"></script>
+<!--copier la ligne du docuement des notes de cours, il est en jaune car Php strom nous avertie que c'est un liens vers un site web-->
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<!--copier la ligne du docuement des notes de cours, il est en jaune car Php strom nous avertie que c'est un liens vers un site web-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--glisser le fichier bootsrap.js ici-->
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
